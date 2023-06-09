@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile</title>
+    <link rel="stylesheet" href="profile.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <nav class="navibar">
+                <div id="name">
+                    <h4>Glenn Gladly G</h4>
+                </div>
+                <div id="navigasi">
+                    <ul>
+                        <li class="active"><a href="#form">Contact</a></li>
+                        <li class="active"><a href="#aboutme">About Me</a></li>
+                        <li class="active"><a href="#home">Home</a></li>
+                    </ul>
+                </div>
+            </nav>
+            
+        </div>
+    </header>
+
+    <main>
+        <div>
+            <section class="banner" id="home">
+                <h2>Welcome To My Website</h2>
+            </section>
+
+            <section class="about" id="aboutme">
+                <h1>About Me</h1>
+                <img src="foto_profile.jpg" alt="foto_profile">
+                <h2>Hello, I'm Glenn Gladly Gessong</h2>
+                <br>Saya adalah seorang mahasiswa program studi informatika
+                    di Institut Tenologi Kalimantan.saat ini saya sedang 
+                    mengikuti program pelatihan web dev yang adakan oleh 
+                    Departemen Pengembangan Minat dan Bakat (PMB) HMIF.
+                </p>
+            </section>
+
+            <section>
+                <section class="form" id="form">
+                    <div>
+                        <h2>Contact Me</h2>
+                        <form onsubmit="submitForm()">
+                            <div id="nama">
+                                <label for="nama">Nama</label>
+                                <input type="text" name="nama" id="nama" required>
+                            </div>
+                            
+                            <div id="email">
+                                <label for="email">Email</label>
+                                <input type="email" name="email" id="email" required>
+                            </div>
+                            
+                            <div id="pesan">
+                                <label for="pesan">Pesan</label>
+                                <textarea type="text" name="pesan" id="pesan" required></textarea>
+                            </div>
+                            <div id="tombol">
+                                <input type="submit" value="submit">
+                            </div>
+                        </form>
+                        <script src="script.js"></script>
+                    </div>
+                </section>
+            </section>
+        </div>
+    </main>
+
+    <footer>
+
+    </footer>
+</body>
+</html>
